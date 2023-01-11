@@ -1,0 +1,20 @@
+@id=5ee47e31-d733-41b0-a35c-286f45af1c22
+
+PUT http://localhost:5141/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+    "name": "V test updated",
+    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}
